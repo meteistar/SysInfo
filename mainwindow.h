@@ -4,6 +4,7 @@
 #include <QMainWindow>
 
 #include "cpuwidget.h"
+#include "memorywidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,5 +21,6 @@ public:
 private:
     Ui::MainWindow *ui;
     CpuWidget mCpuWidget;
+    MemoryWidget mMemoryWidget;
 };
 #endif // MAINWINDOW_H
