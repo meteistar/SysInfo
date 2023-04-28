@@ -11,11 +11,13 @@ CONFIG += c++14
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    sysinfo.cpp
+    sysinfo.cpp \
+    sysinfowidget.cpp
 
 HEADERS += \
     mainwindow.h \
-    sysinfo.h
+    sysinfo.h \
+    sysinfowidget.h
 
 windows{
     SOURCES += sysinfowindowsimpl.cpp
